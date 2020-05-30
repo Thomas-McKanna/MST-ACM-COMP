@@ -26,5 +26,3 @@ while hi - lo > 1:
         lo = mid
 
 print(hi)
-
-
