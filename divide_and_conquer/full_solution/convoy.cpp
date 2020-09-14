@@ -19,7 +19,7 @@ bool can_drive(int64_t time) {
 int main() {
     scanf("%ld %ld", &n, &k);
     for (int i = 0; i < n; i++) scanf("%ld", speeds + i);
-    sort(speeds, speeds + n - 1);
+    sort(speeds, speeds + n);
 
     // upper limit: 20,000 cards * 1,000,000 second trip
     int64_t hi = 20000LL * 1000000LL, lo = 0, mid; 
@@ -30,6 +30,7 @@ int main() {
         else
             lo = mid;
     }
+    
     printf("%ld\n", hi);
     return 0;
 }

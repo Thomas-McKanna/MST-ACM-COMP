@@ -9,10 +9,4 @@ def can_drive(time):
     # TODO: if can drive in time, return true. Otherwise return false.
     return True
 
-
-hi = ?? # TODO: what is upper bound?
-lo = ?? # TODO: what is lower bound?
-
 # TODO: bisection method here
-
-print(hi)
